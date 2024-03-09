@@ -117,8 +117,8 @@
 	</build>
 	<repositories>
 <repository>
-  <id>artifact-repo</id>
-  <url>https://pkgs.dev.azure.com/DevOpsMaster01/DevopsMaster/_packaging/artifact-repo/maven/v1</url>
+  <id>DevOpsMaster01</id>
+  <url>https://pkgs.dev.azure.com/DevOpsMaster01/_packaging/DevOpsMaster01/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
@@ -129,8 +129,8 @@
  </repositories>
 <distributionManagement>
     <repository>
-  <id>artifact-repo</id>
-  <url>https://pkgs.dev.azure.com/DevOpsMaster01/DevopsMaster/_packaging/artifact-repo/maven/v1</url>
+  <id>DevOpsMaster01</id>
+  <url>https://pkgs.dev.azure.com/DevOpsMaster01/_packaging/DevOpsMaster01/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
