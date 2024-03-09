@@ -4,7 +4,7 @@ EXPOSE 8080
  
 ENV APP_HOME /usr/src/app
 
-COPY target/database_service_project-0.0.1.jar $APP_HOME/app.jar
+COPY /home/vsts/work/1/a/target/database_service_project-0.0.1.jar $APP_HOME/app.jar
 
 WORKDIR $APP_HOME
 
