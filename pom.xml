@@ -115,10 +115,10 @@
 </plugin>
 		</plugins>
 	</build>
-	<repositories> 
-		<repository>
-  <id>artifact-app</id>
-  <url>https://pkgs.dev.azure.com/DevOpsMaster01/DevopsMaster/_packaging/artifact-app/maven/v1</url>
+	<repositories>
+<repository>
+  <id>artifact-repo</id>
+  <url>https://pkgs.dev.azure.com/DevOpsMaster01/DevopsMaster/_packaging/artifact-repo/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
@@ -126,12 +126,11 @@
     <enabled>true</enabled>
   </snapshots>
 </repository>
-	</repositories> 
-
-	<distributionManagement>
-        <repository>
-  <id>artifact-app</id>
-  <url>https://pkgs.dev.azure.com/DevOpsMaster01/DevopsMaster/_packaging/artifact-app/maven/v1</url>
+ </repositories>
+<distributionManagement>
+    <repository>
+  <id>artifact-repo</id>
+  <url>https://pkgs.dev.azure.com/DevOpsMaster01/DevopsMaster/_packaging/artifact-repo/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
@@ -139,6 +138,6 @@
     <enabled>true</enabled>
   </snapshots>
 </repository>
-    </distributionManagement>
+</distributionManagement>
 
 </project>
